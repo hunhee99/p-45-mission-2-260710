@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         String orderNum = "번 주문 ";
-        String sucess = "성공, 남은 재고: ";
+        String success = "성공, 남은 재고: ";
         String fail = "실패, 재고 없음";
         int stock = 5;
 
