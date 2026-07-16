@@ -5,9 +5,9 @@ public class Main {
         String fail = "실패, 재고 없음";
         int stock = 5;
 
-        for (int i = 1; i <= 10; i++){
-            if (stock - i >= 0){
-                System.out.println(i + orderNum + sucess + (stock - i));
+        for (int i = 1; i <= 10; i++) {
+            if (stock - i >= 0) {
+                System.out.println(i + orderNum + success + (stock - i));
                 continue;
             }
             System.out.println(i + orderNum + fail);
